@@ -1,0 +1,5 @@
+python analyze_signals.py --save-every 1 --bg world_hud.png --bg-alpha 0.18
+
+python .\analyze_signals.py --classify --gap 8000 --classify-window 45 --save-every 1 --bg world_hud.png --bg-alpha 0.18
+
+py -3 .\ingest_server.py --fresh-start
