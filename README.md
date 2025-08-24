@@ -1,3 +1,5 @@
+Never Plug in the USB Connection if 5v are supplied externally, Use only one powersource at a time.
+
 Using an ESP32, a 433 MHz receiver, and an SG90 servo, I built a small direction-scanning rig. 
 The ESP32 sweeps horizontally, logs RF activity, sends it via Wi-Fi to a Flask server, and a Python dashboard shows a radar view, heatmap, and pulse spectrum in real time. 
 A simple classifier estimates whether signals come from things like weather sensors or fixed-code remotes. I’m genuinely proud of how cleanly it all works.
